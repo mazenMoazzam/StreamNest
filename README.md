@@ -1,3 +1,3 @@
 # StreamNest
 
-Streaming Application. 
+Streaming Application
