@@ -4,9 +4,16 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="logo">StreamNest</h1>
-      <div className="search-container">
+      <div className="left">
+        <h1 className="logo">StreamNest</h1>
+      </div>
+
+      <div className="center">
         <input type="text" placeholder="Search videos..." className="search-input" />
+        <button className="search-btn">Search</button>
+      </div>
+
+      <div className="right">
         <button className="upload-btn">Upload</button>
       </div>
     </header>
@@ -14,4 +21,3 @@ const Header = () => {
 };
 
 export default Header;
-
